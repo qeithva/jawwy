@@ -1,4 +1,4 @@
-package com.github.thomasdarimont.keycloak.provisioning;
+package com.github.jawwy.keycloak.updatepassword;
 
 import com.google.auto.service.AutoService;
 import org.keycloak.Config;
@@ -8,11 +8,11 @@ import org.keycloak.models.KeycloakSession;
 import org.keycloak.models.KeycloakSessionFactory;
 
 @AutoService(EventListenerProviderFactory.class)
-public class ProvisioningEventListenerFactory implements EventListenerProviderFactory {
+public class UpdatePasswordEventListenerFactory implements EventListenerProviderFactory {
 
     @Override
     public EventListenerProvider create(KeycloakSession session) {
-        return new ProvisioningEventListener(session);
+        return new UpdatePasswordEventListener(session);
     }
 
     @Override
@@ -32,6 +32,6 @@ public class ProvisioningEventListenerFactory implements EventListenerProviderFa
 
     @Override
     public String getId() {
-        return ProvisioningEventListener.ID;
+        return UpdatePasswordEventListener.ID;
     }
 }

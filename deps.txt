@@ -1,7 +1,5 @@
 [INFO] Scanning for projects...
 [WARNING] 
-[WARNING] Some problems were encountered while building the effective model for com.github.thomasdarimont.keycloak:saml-group-idp-mapper:jar:1.0.0.0-SNAPSHOT
-[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.keycloak:keycloak-server-spi-private:jar -> duplicate declaration of version ${keycloak.version} @ line 50, column 21
 [WARNING] 
 [WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
 [WARNING] 
@@ -11,75 +9,21 @@
 [INFO] Reactor Build Order:
 [INFO] 
 [INFO] keycloak-extension-playground                                      [pom]
-[INFO] simple-realm-resource-with-form-example                            [jar]
-[INFO] auth-custom-registration-create-user                               [jar]
-[INFO] auth-faceauth-extension                                            [jar]
-[INFO] saml-group-idp-mapper                                              [jar]
-[INFO] custom-ldapattribute-import-mapper                                 [jar]
-[INFO] custom-required-action                                             [jar]
-[INFO] dynamic-email-code-auth-extension                                  [jar]
-[INFO] external-client-storage-extension                                  [jar]
-[INFO] provisioning-event-listener-extension                              [jar]
-[INFO] personalinfo-auth-form-extension                                   [jar]
-[INFO] simple-session-access-resource                                     [jar]
-[INFO] flyweight-user-storage-provider-extension                          [jar]
-[INFO] token-validation-ui-extension                                      [jar]
-[INFO] auth-forgot-username-extension                                     [jar]
-[INFO] github-enterprise-identity-provider                                [jar]
-[INFO] auth-login-notify-email-extension                                  [jar]
-[INFO] thirdparty-mfa-auth-extension                                      [jar]
-[INFO] auth-check-authz-policy-extension                                  [jar]
-[INFO] auth-require-access-policy-extension                               [jar]
-[INFO] auth-session-propagation-extension                                 [jar]
-[INFO] auth-dynamic-idp-redirector-extension                              [jar]
-[INFO] tenant-selection-form-extension                                    [jar]
-[INFO] virtual-client-storage-provider-extension                          [jar]
-[INFO] reset-password-after-login-eventlistener-extension                 [jar]
-[INFO] auth-require-role-extension                                        [jar]
-[INFO] auth-require-group-extension                                       [jar]
-[INFO] simple-realm-rest-resource                                         [jar]
-[INFO] simple-event-listener                                              [jar]
-[INFO] simple-auth-extension                                              [jar]
-[INFO] simple-auth-form-extension                                         [jar]
-[INFO] simple-custom-saml-protocol                                        [jar]
-[INFO] simple-oidc-mapper                                                 [jar]
-[INFO] simple-saml-mapper                                                 [jar]
-[INFO] simple-formaction-extension                                        [jar]
-[INFO] auth-identity-first-extension                                      [jar]
-[INFO] adhoc-keycloak-extensions                                          [jar]
-[INFO] simple-javascript-extensions                                       [jar]
-[INFO] auth-trust-device                                                  [jar]
-[INFO] auth-backup-codes                                                  [jar]
-[INFO] simple-theme                                                       [jar]
-[INFO] auth-message-of-the-day                                            [jar]
-[INFO] custom-user-profile-extension                                      [jar]
-[INFO] remote-keycloak-federation                                         [jar]
-[INFO] smallrye-metrics-extension                                         [jar]
-[INFO] keycloak-playground-server                                         [jar]
-[INFO] jaxrs-request-filter-extension                                     [jar]
-[INFO] smallrye-health-extension                                          [jar]
-[INFO] keycloak-admin-client-example                                      [jar]
-[INFO] json-theme-provider-extension                                      [jar]
-[INFO] simple-registration-form-action-example                            [jar]
-[INFO] kafka-event-listener                                               [jar]
-[INFO] filebased-sync-userstorage-provider                                [jar]
-[INFO] custom-login-forms-provider                                        [jar]
-[INFO] custom-saml-identity-provider                                      [jar]
-[INFO] custom-ldap-user-storage-provider                                  [jar]
+[INFO] update-password-event-listener-extension                           [jar]
 [INFO] 
-[INFO] --< com.github.thomasdarimont.keycloak:keycloak-extension-playground >--
+[INFO] --< com.github.jawwy.keycloak:keycloak-extension-playground >--
 [INFO] Building keycloak-extension-playground 1.0.0.0-SNAPSHOT           [1/56]
 [INFO] --------------------------------[ pom ]---------------------------------
 [INFO] 
 [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ keycloak-extension-playground ---
-[INFO] com.github.thomasdarimont.keycloak:keycloak-extension-playground:pom:1.0.0.0-SNAPSHOT
+[INFO] com.github.jawwy.keycloak:keycloak-extension-playground:pom:1.0.0.0-SNAPSHOT
 [INFO] 
-[INFO] --< com.github.thomasdarimont.keycloak:simple-realm-resource-with-form-example >--
+[INFO] --< com.github.jawwy.keycloak:simple-realm-resource-with-form-example >--
 [INFO] Building simple-realm-resource-with-form-example 1.0.0.0-SNAPSHOT [2/56]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ simple-realm-resource-with-form-example ---
-[INFO] com.github.thomasdarimont.keycloak:simple-realm-resource-with-form-example:jar:1.0.0.0-SNAPSHOT
+[INFO] com.github.jawwy.keycloak:simple-realm-resource-with-form-example:jar:1.0.0.0-SNAPSHOT
 [INFO] +- org.projectlombok:lombok:jar:1.18.22:provided
 [INFO] +- org.jboss.resteasy:resteasy-jaxrs:jar:3.15.1.Final:provided
 [INFO] |  +- org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.1_spec:jar:2.0.1.Final:provided
@@ -155,12 +99,12 @@
 [INFO]       +- org.apache.kerby:kerby-asn1:jar:2.0.2:provided
 [INFO]       \- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.13.3:provided
 [INFO] 
-[INFO] --< com.github.thomasdarimont.keycloak:auth-custom-registration-create-user >--
+[INFO] --< com.github.jawwy.keycloak:auth-custom-registration-create-user >--
 [INFO] Building auth-custom-registration-create-user 1.0.0.0-SNAPSHOT    [3/56]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ auth-custom-registration-create-user ---
-[INFO] com.github.thomasdarimont.keycloak:auth-custom-registration-create-user:jar:1.0.0.0-SNAPSHOT
+[INFO] com.github.jawwy.keycloak:auth-custom-registration-create-user:jar:1.0.0.0-SNAPSHOT
 [INFO] +- com.google.auto.service:auto-service:jar:1.0.1:provided
 [INFO] |  +- com.google.auto.service:auto-service-annotations:jar:1.0.1:provided
 [INFO] |  +- com.google.auto:auto-common:jar:1.2:provided
@@ -230,12 +174,12 @@
 [INFO]       +- org.apache.kerby:kerby-asn1:jar:2.0.2:provided
 [INFO]       \- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.13.3:provided
 [INFO] 
-[INFO] -----< com.github.thomasdarimont.keycloak:auth-faceauth-extension >-----
+[INFO] -----< com.github.jawwy.keycloak:auth-faceauth-extension >-----
 [INFO] Building auth-faceauth-extension 1.0.0.0-SNAPSHOT                 [4/56]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ auth-faceauth-extension ---
-[INFO] com.github.thomasdarimont.keycloak:auth-faceauth-extension:jar:1.0.0.0-SNAPSHOT
+[INFO] com.github.jawwy.keycloak:auth-faceauth-extension:jar:1.0.0.0-SNAPSHOT
 [INFO] +- org.projectlombok:lombok:jar:1.18.22:provided
 [INFO] +- org.jboss.resteasy:resteasy-jaxrs:jar:3.15.1.Final:provided
 [INFO] |  +- org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.1_spec:jar:2.0.1.Final:provided
@@ -312,12 +256,12 @@
 [INFO]       +- org.apache.kerby:kerby-asn1:jar:2.0.2:provided
 [INFO]       \- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.13.3:provided
 [INFO] 
-[INFO] ------< com.github.thomasdarimont.keycloak:saml-group-idp-mapper >------
+[INFO] ------< com.github.jawwy.keycloak:saml-group-idp-mapper >------
 [INFO] Building saml-group-idp-mapper 1.0.0.0-SNAPSHOT                   [5/56]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ saml-group-idp-mapper ---
-[INFO] com.github.thomasdarimont.keycloak:saml-group-idp-mapper:jar:1.0.0.0-SNAPSHOT
+[INFO] com.github.jawwy.keycloak:saml-group-idp-mapper:jar:1.0.0.0-SNAPSHOT
 [INFO] +- org.projectlombok:lombok:jar:1.18.22:provided
 [INFO] +- com.google.auto.service:auto-service:jar:1.0.1:provided
 [INFO] |  +- com.google.auto.service:auto-service-annotations:jar:1.0.1:provided
@@ -407,12 +351,12 @@
 [INFO]       +- org.apache.kerby:kerby-asn1:jar:2.0.2:provided
 [INFO]       \- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.13.3:provided
 [INFO] 
-[INFO] --< com.github.thomasdarimont.keycloak:custom-ldapattribute-import-mapper >--
+[INFO] --< com.github.jawwy.keycloak:custom-ldapattribute-import-mapper >--
 [INFO] Building custom-ldapattribute-import-mapper 1.0.0.0-SNAPSHOT      [6/56]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ custom-ldapattribute-import-mapper ---
-[INFO] com.github.thomasdarimont.keycloak:custom-ldapattribute-import-mapper:jar:1.0.0.0-SNAPSHOT
+[INFO] com.github.jawwy.keycloak:custom-ldapattribute-import-mapper:jar:1.0.0.0-SNAPSHOT
 [INFO] +- org.projectlombok:lombok:jar:1.18.22:provided
 [INFO] +- com.google.auto.service:auto-service:jar:1.0.1:provided
 [INFO] |  +- com.google.auto.service:auto-service-annotations:jar:1.0.1:provided
@@ -495,12 +439,12 @@
 [INFO]       +- org.apache.kerby:kerby-asn1:jar:2.0.2:provided
 [INFO]       \- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.13.3:provided
 [INFO] 
-[INFO] -----< com.github.thomasdarimont.keycloak:custom-required-action >------
+[INFO] -----< com.github.jawwy.keycloak:custom-required-action >------
 [INFO] Building custom-required-action 1.0.0.0-SNAPSHOT                  [7/56]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ custom-required-action ---
-[INFO] com.github.thomasdarimont.keycloak:custom-required-action:jar:1.0.0.0-SNAPSHOT
+[INFO] com.github.jawwy.keycloak:custom-required-action:jar:1.0.0.0-SNAPSHOT
 [INFO] +- org.projectlombok:lombok:jar:1.18.22:provided
 [INFO] +- com.google.auto.service:auto-service:jar:1.0.1:provided
 [INFO] |  +- com.google.auto.service:auto-service-annotations:jar:1.0.1:provided
@@ -570,12 +514,12 @@
 [INFO]       +- org.apache.kerby:kerby-asn1:jar:2.0.2:provided
 [INFO]       \- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.13.3:provided
 [INFO] 
-[INFO] --< com.github.thomasdarimont.keycloak:dynamic-email-code-auth-extension >--
+[INFO] --< com.github.jawwy.keycloak:dynamic-email-code-auth-extension >--
 [INFO] Building dynamic-email-code-auth-extension 1.0.0.0-SNAPSHOT       [8/56]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ dynamic-email-code-auth-extension ---
-[INFO] com.github.thomasdarimont.keycloak:dynamic-email-code-auth-extension:jar:1.0.0.0-SNAPSHOT
+[INFO] com.github.jawwy.keycloak:dynamic-email-code-auth-extension:jar:1.0.0.0-SNAPSHOT
 [INFO] +- org.projectlombok:lombok:jar:1.18.22:provided
 [INFO] +- com.google.auto.service:auto-service:jar:1.0.1:provided
 [INFO] |  +- com.google.auto.service:auto-service-annotations:jar:1.0.1:provided
@@ -645,12 +589,12 @@
 [INFO]       +- org.apache.kerby:kerby-asn1:jar:2.0.2:provided
 [INFO]       \- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.13.3:provided
 [INFO] 
-[INFO] --< com.github.thomasdarimont.keycloak:external-client-storage-extension >--
+[INFO] --< com.github.jawwy.keycloak:external-client-storage-extension >--
 [INFO] Building external-client-storage-extension 1.0.0.0-SNAPSHOT       [9/56]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ external-client-storage-extension ---
-[INFO] com.github.thomasdarimont.keycloak:external-client-storage-extension:jar:1.0.0.0-SNAPSHOT
+[INFO] com.github.jawwy.keycloak:external-client-storage-extension:jar:1.0.0.0-SNAPSHOT
 [INFO] +- org.projectlombok:lombok:jar:1.18.22:provided
 [INFO] +- com.google.auto.service:auto-service:jar:1.0.1:provided
 [INFO] |  +- com.google.auto.service:auto-service-annotations:jar:1.0.1:provided
@@ -736,12 +680,12 @@
 [INFO]       +- org.apache.kerby:kerby-asn1:jar:2.0.2:provided
 [INFO]       \- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.13.3:provided
 [INFO] 
-[INFO] --< com.github.thomasdarimont.keycloak:provisioning-event-listener-extension >--
+[INFO] --< com.github.jawwy.keycloak:provisioning-event-listener-extension >--
 [INFO] Building provisioning-event-listener-extension 1.0.0.0-SNAPSHOT  [10/56]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ provisioning-event-listener-extension ---
-[INFO] com.github.thomasdarimont.keycloak:provisioning-event-listener-extension:jar:1.0.0.0-SNAPSHOT
+[INFO] com.github.jawwy.keycloak:provisioning-event-listener-extension:jar:1.0.0.0-SNAPSHOT
 [INFO] +- org.projectlombok:lombok:jar:1.18.22:provided
 [INFO] +- com.google.auto.service:auto-service:jar:1.0.1:provided
 [INFO] |  +- com.google.auto.service:auto-service-annotations:jar:1.0.1:provided
@@ -811,12 +755,12 @@
 [INFO]       +- org.apache.kerby:kerby-asn1:jar:2.0.2:provided
 [INFO]       \- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.13.3:provided
 [INFO] 
-[INFO] --< com.github.thomasdarimont.keycloak:personalinfo-auth-form-extension >--
+[INFO] --< com.github.jawwy.keycloak:personalinfo-auth-form-extension >--
 [INFO] Building personalinfo-auth-form-extension 1.0.0.0-SNAPSHOT       [11/56]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ personalinfo-auth-form-extension ---
-[INFO] com.github.thomasdarimont.keycloak:personalinfo-auth-form-extension:jar:1.0.0.0-SNAPSHOT
+[INFO] com.github.jawwy.keycloak:personalinfo-auth-form-extension:jar:1.0.0.0-SNAPSHOT
 [INFO] +- com.google.auto.service:auto-service:jar:1.0.1:provided
 [INFO] |  +- com.google.auto.service:auto-service-annotations:jar:1.0.1:provided
 [INFO] |  +- com.google.auto:auto-common:jar:1.2:provided
@@ -886,12 +830,12 @@
 [INFO]       +- org.apache.kerby:kerby-asn1:jar:2.0.2:provided
 [INFO]       \- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.13.3:provided
 [INFO] 
-[INFO] --< com.github.thomasdarimont.keycloak:simple-session-access-resource >--
+[INFO] --< com.github.jawwy.keycloak:simple-session-access-resource >--
 [INFO] Building simple-session-access-resource 1.0.0.0-SNAPSHOT         [12/56]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ simple-session-access-resource ---
-[INFO] com.github.thomasdarimont.keycloak:simple-session-access-resource:jar:1.0.0.0-SNAPSHOT
+[INFO] com.github.jawwy.keycloak:simple-session-access-resource:jar:1.0.0.0-SNAPSHOT
 [INFO] +- com.google.auto.service:auto-service:jar:1.0.1:provided
 [INFO] |  +- com.google.auto.service:auto-service-annotations:jar:1.0.1:provided
 [INFO] |  +- com.google.auto:auto-common:jar:1.2:provided
@@ -961,12 +905,12 @@
 [INFO]       +- org.apache.kerby:kerby-asn1:jar:2.0.2:provided
 [INFO]       \- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.13.3:provided
 [INFO] 
-[INFO] --< com.github.thomasdarimont.keycloak:flyweight-user-storage-provider-extension >--
+[INFO] --< com.github.jawwy.keycloak:flyweight-user-storage-provider-extension >--
 [INFO] Building flyweight-user-storage-provider-extension 1.0.0.0-SNAPSHOT [13/56]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ flyweight-user-storage-provider-extension ---
-[INFO] com.github.thomasdarimont.keycloak:flyweight-user-storage-provider-extension:jar:1.0.0.0-SNAPSHOT
+[INFO] com.github.jawwy.keycloak:flyweight-user-storage-provider-extension:jar:1.0.0.0-SNAPSHOT
 [INFO] +- org.projectlombok:lombok:jar:1.18.22:provided
 [INFO] +- com.google.auto.service:auto-service:jar:1.0.1:provided
 [INFO] |  +- com.google.auto.service:auto-service-annotations:jar:1.0.1:provided
@@ -1049,12 +993,12 @@
 [INFO] \- org.keycloak:keycloak-model-legacy-private:jar:19.0.3:provided
 [INFO]    \- org.keycloak:keycloak-model-legacy:jar:19.0.3:provided
 [INFO] 
-[INFO] --< com.github.thomasdarimont.keycloak:token-validation-ui-extension >--
+[INFO] --< com.github.jawwy.keycloak:token-validation-ui-extension >--
 [INFO] Building token-validation-ui-extension 1.0.0.0-SNAPSHOT          [14/56]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ token-validation-ui-extension ---
-[INFO] com.github.thomasdarimont.keycloak:token-validation-ui-extension:jar:1.0.0.0-SNAPSHOT
+[INFO] com.github.jawwy.keycloak:token-validation-ui-extension:jar:1.0.0.0-SNAPSHOT
 [INFO] +- org.projectlombok:lombok:jar:1.18.22:provided
 [INFO] +- com.google.auto.service:auto-service:jar:1.0.1:provided
 [INFO] |  +- com.google.auto.service:auto-service-annotations:jar:1.0.1:provided
@@ -1124,12 +1068,12 @@
 [INFO]       +- org.apache.kerby:kerby-asn1:jar:2.0.2:provided
 [INFO]       \- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.13.3:provided
 [INFO] 
-[INFO] --< com.github.thomasdarimont.keycloak:auth-forgot-username-extension >--
+[INFO] --< com.github.jawwy.keycloak:auth-forgot-username-extension >--
 [INFO] Building auth-forgot-username-extension 1.0.0.0-SNAPSHOT         [15/56]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ auth-forgot-username-extension ---
-[INFO] com.github.thomasdarimont.keycloak:auth-forgot-username-extension:jar:1.0.0.0-SNAPSHOT
+[INFO] com.github.jawwy.keycloak:auth-forgot-username-extension:jar:1.0.0.0-SNAPSHOT
 [INFO] +- org.projectlombok:lombok:jar:1.18.22:provided
 [INFO] +- com.google.auto.service:auto-service:jar:1.0.1:provided
 [INFO] |  +- com.google.auto.service:auto-service-annotations:jar:1.0.1:provided
@@ -1199,12 +1143,12 @@
 [INFO]       +- org.apache.kerby:kerby-asn1:jar:2.0.2:provided
 [INFO]       \- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.13.3:provided
 [INFO] 
-[INFO] --< com.github.thomasdarimont.keycloak:github-enterprise-identity-provider >--
+[INFO] --< com.github.jawwy.keycloak:github-enterprise-identity-provider >--
 [INFO] Building github-enterprise-identity-provider 1.0.0.0-SNAPSHOT    [16/56]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ github-enterprise-identity-provider ---
-[INFO] com.github.thomasdarimont.keycloak:github-enterprise-identity-provider:jar:1.0.0.0-SNAPSHOT
+[INFO] com.github.jawwy.keycloak:github-enterprise-identity-provider:jar:1.0.0.0-SNAPSHOT
 [INFO] +- org.projectlombok:lombok:jar:1.18.22:provided
 [INFO] +- com.google.auto.service:auto-service:jar:1.0.1:provided
 [INFO] |  +- com.google.auto.service:auto-service-annotations:jar:1.0.1:provided
@@ -1278,12 +1222,12 @@
 [INFO]    +- commons-logging:commons-logging:jar:1.2:provided
 [INFO]    \- commons-codec:commons-codec:jar:1.11:provided
 [INFO] 
-[INFO] --< com.github.thomasdarimont.keycloak:auth-login-notify-email-extension >--
+[INFO] --< com.github.jawwy.keycloak:auth-login-notify-email-extension >--
 [INFO] Building auth-login-notify-email-extension 1.0.0.0-SNAPSHOT      [17/56]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ auth-login-notify-email-extension ---
-[INFO] com.github.thomasdarimont.keycloak:auth-login-notify-email-extension:jar:1.0.0.0-SNAPSHOT
+[INFO] com.github.jawwy.keycloak:auth-login-notify-email-extension:jar:1.0.0.0-SNAPSHOT
 [INFO] +- org.projectlombok:lombok:jar:1.18.22:provided
 [INFO] +- com.google.auto.service:auto-service:jar:1.0.1:provided
 [INFO] |  +- com.google.auto.service:auto-service-annotations:jar:1.0.1:provided
@@ -1366,12 +1310,12 @@
 [INFO] \- org.keycloak:keycloak-model-legacy-private:jar:19.0.3:provided
 [INFO]    \- org.keycloak:keycloak-model-legacy:jar:19.0.3:provided
 [INFO] 
-[INFO] --< com.github.thomasdarimont.keycloak:thirdparty-mfa-auth-extension >--
+[INFO] --< com.github.jawwy.keycloak:thirdparty-mfa-auth-extension >--
 [INFO] Building thirdparty-mfa-auth-extension 1.0.0.0-SNAPSHOT          [18/56]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ thirdparty-mfa-auth-extension ---
-[INFO] com.github.thomasdarimont.keycloak:thirdparty-mfa-auth-extension:jar:1.0.0.0-SNAPSHOT
+[INFO] com.github.jawwy.keycloak:thirdparty-mfa-auth-extension:jar:1.0.0.0-SNAPSHOT
 [INFO] +- org.projectlombok:lombok:jar:1.18.22:provided
 [INFO] +- com.google.auto.service:auto-service:jar:1.0.1:provided
 [INFO] |  +- com.google.auto.service:auto-service-annotations:jar:1.0.1:provided
@@ -1454,12 +1398,12 @@
 [INFO]       +- org.apache.kerby:kerby-asn1:jar:2.0.2:provided
 [INFO]       \- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.13.3:provided
 [INFO] 
-[INFO] --< com.github.thomasdarimont.keycloak:auth-check-authz-policy-extension >--
+[INFO] --< com.github.jawwy.keycloak:auth-check-authz-policy-extension >--
 [INFO] Building auth-check-authz-policy-extension 1.0.0.0-SNAPSHOT      [19/56]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ auth-check-authz-policy-extension ---
-[INFO] com.github.thomasdarimont.keycloak:auth-check-authz-policy-extension:jar:1.0.0.0-SNAPSHOT
+[INFO] com.github.jawwy.keycloak:auth-check-authz-policy-extension:jar:1.0.0.0-SNAPSHOT
 [INFO] +- org.projectlombok:lombok:jar:1.18.22:provided
 [INFO] +- com.google.auto.service:auto-service:jar:1.0.1:provided
 [INFO] |  +- com.google.auto.service:auto-service-annotations:jar:1.0.1:provided
@@ -1542,12 +1486,12 @@
 [INFO]       +- org.apache.kerby:kerby-asn1:jar:2.0.2:provided
 [INFO]       \- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.13.3:provided
 [INFO] 
-[INFO] --< com.github.thomasdarimont.keycloak:auth-require-access-policy-extension >--
+[INFO] --< com.github.jawwy.keycloak:auth-require-access-policy-extension >--
 [INFO] Building auth-require-access-policy-extension 1.0.0.0-SNAPSHOT   [20/56]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ auth-require-access-policy-extension ---
-[INFO] com.github.thomasdarimont.keycloak:auth-require-access-policy-extension:jar:1.0.0.0-SNAPSHOT
+[INFO] com.github.jawwy.keycloak:auth-require-access-policy-extension:jar:1.0.0.0-SNAPSHOT
 [INFO] +- org.projectlombok:lombok:jar:1.18.22:provided
 [INFO] +- com.google.auto.service:auto-service:jar:1.0.1:provided
 [INFO] |  +- com.google.auto.service:auto-service-annotations:jar:1.0.1:provided
@@ -1630,12 +1574,12 @@
 [INFO]       +- org.apache.kerby:kerby-asn1:jar:2.0.2:provided
 [INFO]       \- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.13.3:provided
 [INFO] 
-[INFO] --< com.github.thomasdarimont.keycloak:auth-session-propagation-extension >--
+[INFO] --< com.github.jawwy.keycloak:auth-session-propagation-extension >--
 [INFO] Building auth-session-propagation-extension 1.0.0.0-SNAPSHOT     [21/56]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ auth-session-propagation-extension ---
-[INFO] com.github.thomasdarimont.keycloak:auth-session-propagation-extension:jar:1.0.0.0-SNAPSHOT
+[INFO] com.github.jawwy.keycloak:auth-session-propagation-extension:jar:1.0.0.0-SNAPSHOT
 [INFO] +- org.projectlombok:lombok:jar:1.18.22:provided
 [INFO] +- org.keycloak:keycloak-admin-client:jar:19.0.3:compile
 [INFO] |  +- org.keycloak:keycloak-core:jar:19.0.3:compile
@@ -1706,12 +1650,12 @@
 [INFO]       +- org.apache.kerby:kerby-asn1:jar:2.0.2:provided
 [INFO]       \- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.13.3:provided
 [INFO] 
-[INFO] --< com.github.thomasdarimont.keycloak:auth-dynamic-idp-redirector-extension >--
+[INFO] --< com.github.jawwy.keycloak:auth-dynamic-idp-redirector-extension >--
 [INFO] Building auth-dynamic-idp-redirector-extension 1.0.0.0-SNAPSHOT  [22/56]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ auth-dynamic-idp-redirector-extension ---
-[INFO] com.github.thomasdarimont.keycloak:auth-dynamic-idp-redirector-extension:jar:1.0.0.0-SNAPSHOT
+[INFO] com.github.jawwy.keycloak:auth-dynamic-idp-redirector-extension:jar:1.0.0.0-SNAPSHOT
 [INFO] +- org.projectlombok:lombok:jar:1.18.22:provided
 [INFO] +- com.google.auto.service:auto-service:jar:1.0.1:provided
 [INFO] |  +- com.google.auto.service:auto-service-annotations:jar:1.0.1:provided
@@ -1781,12 +1725,12 @@
 [INFO]       +- org.apache.kerby:kerby-asn1:jar:2.0.2:provided
 [INFO]       \- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.13.3:provided
 [INFO] 
-[INFO] --< com.github.thomasdarimont.keycloak:tenant-selection-form-extension >--
+[INFO] --< com.github.jawwy.keycloak:tenant-selection-form-extension >--
 [INFO] Building tenant-selection-form-extension 1.0.0.0-SNAPSHOT        [23/56]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ tenant-selection-form-extension ---
-[INFO] com.github.thomasdarimont.keycloak:tenant-selection-form-extension:jar:1.0.0.0-SNAPSHOT
+[INFO] com.github.jawwy.keycloak:tenant-selection-form-extension:jar:1.0.0.0-SNAPSHOT
 [INFO] +- org.projectlombok:lombok:jar:1.18.22:provided
 [INFO] +- com.google.auto.service:auto-service:jar:1.0.1:provided
 [INFO] |  +- com.google.auto.service:auto-service-annotations:jar:1.0.1:provided
@@ -1856,12 +1800,12 @@
 [INFO]       +- org.apache.kerby:kerby-asn1:jar:2.0.2:provided
 [INFO]       \- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.13.3:provided
 [INFO] 
-[INFO] --< com.github.thomasdarimont.keycloak:virtual-client-storage-provider-extension >--
+[INFO] --< com.github.jawwy.keycloak:virtual-client-storage-provider-extension >--
 [INFO] Building virtual-client-storage-provider-extension 1.0.0.0-SNAPSHOT [24/56]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ virtual-client-storage-provider-extension ---
-[INFO] com.github.thomasdarimont.keycloak:virtual-client-storage-provider-extension:jar:1.0.0.0-SNAPSHOT
+[INFO] com.github.jawwy.keycloak:virtual-client-storage-provider-extension:jar:1.0.0.0-SNAPSHOT
 [INFO] +- org.projectlombok:lombok:jar:1.18.22:provided
 [INFO] +- com.google.auto.service:auto-service:jar:1.0.1:provided
 [INFO] |  +- com.google.auto.service:auto-service-annotations:jar:1.0.1:provided
@@ -1944,12 +1888,12 @@
 [INFO] \- org.keycloak:keycloak-model-legacy-private:jar:19.0.3:provided
 [INFO]    \- org.keycloak:keycloak-model-legacy:jar:19.0.3:provided
 [INFO] 
-[INFO] --< com.github.thomasdarimont.keycloak:reset-password-after-login-eventlistener-extension >--
+[INFO] --< com.github.jawwy.keycloak:reset-password-after-login-eventlistener-extension >--
 [INFO] Building reset-password-after-login-eventlistener-extension 1.0.0.0-SNAPSHOT [25/56]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ reset-password-after-login-eventlistener-extension ---
-[INFO] com.github.thomasdarimont.keycloak:reset-password-after-login-eventlistener-extension:jar:1.0.0.0-SNAPSHOT
+[INFO] com.github.jawwy.keycloak:reset-password-after-login-eventlistener-extension:jar:1.0.0.0-SNAPSHOT
 [INFO] +- org.projectlombok:lombok:jar:1.18.22:provided
 [INFO] +- org.keycloak:keycloak-server-spi:jar:19.0.3:provided
 [INFO] +- org.keycloak:keycloak-server-spi-private:jar:19.0.3:provided
@@ -2019,12 +1963,12 @@
 [INFO]       +- org.apache.kerby:kerby-asn1:jar:2.0.2:provided
 [INFO]       \- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.13.3:provided
 [INFO] 
-[INFO] ---< com.github.thomasdarimont.keycloak:auth-require-role-extension >---
+[INFO] ---< com.github.jawwy.keycloak:auth-require-role-extension >---
 [INFO] Building auth-require-role-extension 1.0.0.0-SNAPSHOT            [26/56]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ auth-require-role-extension ---
-[INFO] com.github.thomasdarimont.keycloak:auth-require-role-extension:jar:1.0.0.0-SNAPSHOT
+[INFO] com.github.jawwy.keycloak:auth-require-role-extension:jar:1.0.0.0-SNAPSHOT
 [INFO] +- org.projectlombok:lombok:jar:1.18.22:provided
 [INFO] +- org.keycloak:keycloak-server-spi:jar:19.0.3:provided
 [INFO] +- org.keycloak:keycloak-server-spi-private:jar:19.0.3:provided
@@ -2091,12 +2035,12 @@
 [INFO]       +- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.13.3:provided
 [INFO]       \- org.checkerframework:checker-qual:jar:3.22.0:provided
 [INFO] 
-[INFO] --< com.github.thomasdarimont.keycloak:auth-require-group-extension >---
+[INFO] --< com.github.jawwy.keycloak:auth-require-group-extension >---
 [INFO] Building auth-require-group-extension 1.0.0.0-SNAPSHOT           [27/56]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ auth-require-group-extension ---
-[INFO] com.github.thomasdarimont.keycloak:auth-require-group-extension:jar:1.0.0.0-SNAPSHOT
+[INFO] com.github.jawwy.keycloak:auth-require-group-extension:jar:1.0.0.0-SNAPSHOT
 [INFO] +- org.projectlombok:lombok:jar:1.18.22:provided
 [INFO] +- org.keycloak:keycloak-server-spi:jar:19.0.3:provided
 [INFO] +- org.keycloak:keycloak-server-spi-private:jar:19.0.3:provided
@@ -2163,12 +2107,12 @@
 [INFO]       +- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.13.3:provided
 [INFO]       \- org.checkerframework:checker-qual:jar:3.22.0:provided
 [INFO] 
-[INFO] ---< com.github.thomasdarimont.keycloak:simple-realm-rest-resource >----
+[INFO] ---< com.github.jawwy.keycloak:simple-realm-rest-resource >----
 [INFO] Building simple-realm-rest-resource 1.0.0.0-SNAPSHOT             [28/56]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ simple-realm-rest-resource ---
-[INFO] com.github.thomasdarimont.keycloak:simple-realm-rest-resource:jar:1.0.0.0-SNAPSHOT
+[INFO] com.github.jawwy.keycloak:simple-realm-rest-resource:jar:1.0.0.0-SNAPSHOT
 [INFO] +- org.projectlombok:lombok:jar:1.18.22:provided
 [INFO] +- org.keycloak:keycloak-server-spi:jar:19.0.3:provided
 [INFO] +- org.keycloak:keycloak-server-spi-private:jar:19.0.3:provided
@@ -2235,12 +2179,12 @@
 [INFO]       +- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.13.3:provided
 [INFO]       \- org.checkerframework:checker-qual:jar:3.22.0:provided
 [INFO] 
-[INFO] ------< com.github.thomasdarimont.keycloak:simple-event-listener >------
+[INFO] ------< com.github.jawwy.keycloak:simple-event-listener >------
 [INFO] Building simple-event-listener 1.0.0.0-SNAPSHOT                  [29/56]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ simple-event-listener ---
-[INFO] com.github.thomasdarimont.keycloak:simple-event-listener:jar:1.0.0.0-SNAPSHOT
+[INFO] com.github.jawwy.keycloak:simple-event-listener:jar:1.0.0.0-SNAPSHOT
 [INFO] +- org.projectlombok:lombok:jar:1.18.22:provided
 [INFO] +- org.keycloak:keycloak-server-spi:jar:19.0.3:provided
 [INFO] +- org.keycloak:keycloak-server-spi-private:jar:19.0.3:provided
@@ -2307,12 +2251,12 @@
 [INFO]       +- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.13.3:provided
 [INFO]       \- org.checkerframework:checker-qual:jar:3.22.0:provided
 [INFO] 
-[INFO] ------< com.github.thomasdarimont.keycloak:simple-auth-extension >------
+[INFO] ------< com.github.jawwy.keycloak:simple-auth-extension >------
 [INFO] Building simple-auth-extension 1.0.0.0-SNAPSHOT                  [30/56]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ simple-auth-extension ---
-[INFO] com.github.thomasdarimont.keycloak:simple-auth-extension:jar:1.0.0.0-SNAPSHOT
+[INFO] com.github.jawwy.keycloak:simple-auth-extension:jar:1.0.0.0-SNAPSHOT
 [INFO] +- org.projectlombok:lombok:jar:1.18.22:provided
 [INFO] +- org.keycloak:keycloak-server-spi:jar:19.0.3:provided
 [INFO] +- org.keycloak:keycloak-server-spi-private:jar:19.0.3:provided
@@ -2379,12 +2323,12 @@
 [INFO]       +- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.13.3:provided
 [INFO]       \- org.checkerframework:checker-qual:jar:3.22.0:provided
 [INFO] 
-[INFO] ---< com.github.thomasdarimont.keycloak:simple-auth-form-extension >----
+[INFO] ---< com.github.jawwy.keycloak:simple-auth-form-extension >----
 [INFO] Building simple-auth-form-extension 1.0.0.0-SNAPSHOT             [31/56]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ simple-auth-form-extension ---
-[INFO] com.github.thomasdarimont.keycloak:simple-auth-form-extension:jar:1.0.0.0-SNAPSHOT
+[INFO] com.github.jawwy.keycloak:simple-auth-form-extension:jar:1.0.0.0-SNAPSHOT
 [INFO] +- org.projectlombok:lombok:jar:1.18.22:provided
 [INFO] +- org.keycloak:keycloak-server-spi:jar:19.0.3:provided
 [INFO] +- org.keycloak:keycloak-server-spi-private:jar:19.0.3:provided
@@ -2451,12 +2395,12 @@
 [INFO]       +- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.13.3:provided
 [INFO]       \- org.checkerframework:checker-qual:jar:3.22.0:provided
 [INFO] 
-[INFO] ---< com.github.thomasdarimont.keycloak:simple-custom-saml-protocol >---
+[INFO] ---< com.github.jawwy.keycloak:simple-custom-saml-protocol >---
 [INFO] Building simple-custom-saml-protocol 1.0.0.0-SNAPSHOT            [32/56]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ simple-custom-saml-protocol ---
-[INFO] com.github.thomasdarimont.keycloak:simple-custom-saml-protocol:jar:1.0.0.0-SNAPSHOT
+[INFO] com.github.jawwy.keycloak:simple-custom-saml-protocol:jar:1.0.0.0-SNAPSHOT
 [INFO] +- org.projectlombok:lombok:jar:1.18.22:provided
 [INFO] +- org.keycloak:keycloak-server-spi:jar:19.0.3:provided
 [INFO] +- org.keycloak:keycloak-saml-core-public:jar:19.0.3:provided
@@ -2544,12 +2488,12 @@
 [INFO]       +- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.13.3:provided
 [INFO]       \- org.checkerframework:checker-qual:jar:3.22.0:provided
 [INFO] 
-[INFO] -------< com.github.thomasdarimont.keycloak:simple-oidc-mapper >--------
+[INFO] -------< com.github.jawwy.keycloak:simple-oidc-mapper >--------
 [INFO] Building simple-oidc-mapper 1.0.0.0-SNAPSHOT                     [33/56]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ simple-oidc-mapper ---
-[INFO] com.github.thomasdarimont.keycloak:simple-oidc-mapper:jar:1.0.0.0-SNAPSHOT
+[INFO] com.github.jawwy.keycloak:simple-oidc-mapper:jar:1.0.0.0-SNAPSHOT
 [INFO] +- org.projectlombok:lombok:jar:1.18.22:provided
 [INFO] +- com.google.auto.service:auto-service:jar:1.0.1:provided
 [INFO] |  +- com.google.auto.service:auto-service-annotations:jar:1.0.1:provided
@@ -2657,12 +2601,12 @@
 [INFO]    \- org.junit.jupiter:junit-jupiter-engine:jar:5.8.2:test
 [INFO]       \- org.junit.platform:junit-platform-engine:jar:1.8.2:test
 [INFO] 
-[INFO] -------< com.github.thomasdarimont.keycloak:simple-saml-mapper >--------
+[INFO] -------< com.github.jawwy.keycloak:simple-saml-mapper >--------
 [INFO] Building simple-saml-mapper 1.0.0.0-SNAPSHOT                     [34/56]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ simple-saml-mapper ---
-[INFO] com.github.thomasdarimont.keycloak:simple-saml-mapper:jar:1.0.0.0-SNAPSHOT
+[INFO] com.github.jawwy.keycloak:simple-saml-mapper:jar:1.0.0.0-SNAPSHOT
 [INFO] +- org.projectlombok:lombok:jar:1.18.22:provided
 [INFO] +- org.keycloak:keycloak-server-spi:jar:19.0.3:provided
 [INFO] +- org.keycloak:keycloak-saml-core-public:jar:19.0.3:provided
@@ -2749,12 +2693,12 @@
 [INFO]       +- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.13.3:provided
 [INFO]       \- org.checkerframework:checker-qual:jar:3.22.0:provided
 [INFO] 
-[INFO] ---< com.github.thomasdarimont.keycloak:simple-formaction-extension >---
+[INFO] ---< com.github.jawwy.keycloak:simple-formaction-extension >---
 [INFO] Building simple-formaction-extension 1.0.0.0-SNAPSHOT            [35/56]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ simple-formaction-extension ---
-[INFO] com.github.thomasdarimont.keycloak:simple-formaction-extension:jar:1.0.0.0-SNAPSHOT
+[INFO] com.github.jawwy.keycloak:simple-formaction-extension:jar:1.0.0.0-SNAPSHOT
 [INFO] +- com.googlecode.libphonenumber:libphonenumber:jar:8.10.6:compile
 [INFO] +- org.projectlombok:lombok:jar:1.18.22:provided
 [INFO] +- org.keycloak:keycloak-server-spi:jar:19.0.3:provided
@@ -2822,12 +2766,12 @@
 [INFO]       +- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.13.3:provided
 [INFO]       \- org.checkerframework:checker-qual:jar:3.22.0:provided
 [INFO] 
-[INFO] --< com.github.thomasdarimont.keycloak:auth-identity-first-extension >--
+[INFO] --< com.github.jawwy.keycloak:auth-identity-first-extension >--
 [INFO] Building auth-identity-first-extension 1.0.0.0-SNAPSHOT          [36/56]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ auth-identity-first-extension ---
-[INFO] com.github.thomasdarimont.keycloak:auth-identity-first-extension:jar:1.0.0.0-SNAPSHOT
+[INFO] com.github.jawwy.keycloak:auth-identity-first-extension:jar:1.0.0.0-SNAPSHOT
 [INFO] +- org.projectlombok:lombok:jar:1.18.22:provided
 [INFO] +- com.google.auto.service:auto-service:jar:1.0.1:provided
 [INFO] |  +- com.google.auto.service:auto-service-annotations:jar:1.0.1:provided
@@ -2897,12 +2841,12 @@
 [INFO]       +- org.apache.kerby:kerby-asn1:jar:2.0.2:provided
 [INFO]       \- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.13.3:provided
 [INFO] 
-[INFO] ----< com.github.thomasdarimont.keycloak:adhoc-keycloak-extensions >----
+[INFO] ----< com.github.jawwy.keycloak:adhoc-keycloak-extensions >----
 [INFO] Building adhoc-keycloak-extensions 1.0.0.0-SNAPSHOT              [37/56]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ adhoc-keycloak-extensions ---
-[INFO] com.github.thomasdarimont.keycloak:adhoc-keycloak-extensions:jar:1.0.0.0-SNAPSHOT
+[INFO] com.github.jawwy.keycloak:adhoc-keycloak-extensions:jar:1.0.0.0-SNAPSHOT
 [INFO] +- org.projectlombok:lombok:jar:1.18.22:provided
 [INFO] +- org.jboss.resteasy:resteasy-jaxrs:jar:3.15.1.Final:provided
 [INFO] |  +- org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.1_spec:jar:2.0.1.Final:provided
@@ -2991,19 +2935,19 @@
 [INFO]       +- org.apache.kerby:kerby-asn1:jar:2.0.2:provided
 [INFO]       \- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.13.3:provided
 [INFO] 
-[INFO] --< com.github.thomasdarimont.keycloak:simple-javascript-extensions >---
+[INFO] --< com.github.jawwy.keycloak:simple-javascript-extensions >---
 [INFO] Building simple-javascript-extensions 1.0.0.0-SNAPSHOT           [38/56]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ simple-javascript-extensions ---
-[INFO] com.github.thomasdarimont.keycloak:simple-javascript-extensions:jar:1.0.0.0-SNAPSHOT
+[INFO] com.github.jawwy.keycloak:simple-javascript-extensions:jar:1.0.0.0-SNAPSHOT
 [INFO] 
-[INFO] --------< com.github.thomasdarimont.keycloak:auth-trust-device >--------
+[INFO] --------< com.github.jawwy.keycloak:auth-trust-device >--------
 [INFO] Building auth-trust-device 1.0.0.0-SNAPSHOT                      [39/56]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ auth-trust-device ---
-[INFO] com.github.thomasdarimont.keycloak:auth-trust-device:jar:1.0.0.0-SNAPSHOT
+[INFO] com.github.jawwy.keycloak:auth-trust-device:jar:1.0.0.0-SNAPSHOT
 [INFO] +- com.google.auto.service:auto-service:jar:1.0.1:provided
 [INFO] |  +- com.google.auto.service:auto-service-annotations:jar:1.0.1:provided
 [INFO] |  +- com.google.auto:auto-common:jar:1.2:provided
@@ -3101,12 +3045,12 @@
 [INFO]    |     \- com.sun.xml.fastinfoset:FastInfoset:jar:1.2.15:provided
 [INFO]    \- org.slf4j:slf4j-api:jar:1.7.30:provided
 [INFO] 
-[INFO] --------< com.github.thomasdarimont.keycloak:auth-backup-codes >--------
+[INFO] --------< com.github.jawwy.keycloak:auth-backup-codes >--------
 [INFO] Building auth-backup-codes 1.0.0.0-SNAPSHOT                      [40/56]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ auth-backup-codes ---
-[INFO] com.github.thomasdarimont.keycloak:auth-backup-codes:jar:1.0.0.0-SNAPSHOT
+[INFO] com.github.jawwy.keycloak:auth-backup-codes:jar:1.0.0.0-SNAPSHOT
 [INFO] +- com.google.auto.service:auto-service:jar:1.0.1:provided
 [INFO] |  +- com.google.auto.service:auto-service-annotations:jar:1.0.1:provided
 [INFO] |  +- com.google.auto:auto-common:jar:1.2:provided
@@ -3204,19 +3148,19 @@
 [INFO]    |     \- com.sun.xml.fastinfoset:FastInfoset:jar:1.2.15:provided
 [INFO]    \- org.slf4j:slf4j-api:jar:1.7.30:provided
 [INFO] 
-[INFO] ----------< com.github.thomasdarimont.keycloak:simple-theme >-----------
+[INFO] ----------< com.github.jawwy.keycloak:simple-theme >-----------
 [INFO] Building simple-theme 1.0.0.0-SNAPSHOT                           [41/56]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-dependency-plugin:3.1.1:tree (default-cli) @ simple-theme ---
-[INFO] com.github.thomasdarimont.keycloak:simple-theme:jar:1.0.0.0-SNAPSHOT
+[INFO] com.github.jawwy.keycloak:simple-theme:jar:1.0.0.0-SNAPSHOT
 [INFO] 
-[INFO] -----< com.github.thomasdarimont.keycloak:auth-message-of-the-day >-----
+[INFO] -----< com.github.jawwy.keycloak:auth-message-of-the-day >-----
 [INFO] Building auth-message-of-the-day 1.0.0.0-SNAPSHOT                [42/56]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ auth-message-of-the-day ---
-[INFO] com.github.thomasdarimont.keycloak:auth-message-of-the-day:jar:1.0.0.0-SNAPSHOT
+[INFO] com.github.jawwy.keycloak:auth-message-of-the-day:jar:1.0.0.0-SNAPSHOT
 [INFO] +- org.projectlombok:lombok:jar:1.18.22:provided
 [INFO] +- com.google.auto.service:auto-service:jar:1.0.1:provided
 [INFO] |  +- com.google.auto.service:auto-service-annotations:jar:1.0.1:provided
@@ -3286,12 +3230,12 @@
 [INFO]       +- org.apache.kerby:kerby-asn1:jar:2.0.2:provided
 [INFO]       \- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.13.3:provided
 [INFO] 
-[INFO] --< com.github.thomasdarimont.keycloak:custom-user-profile-extension >--
+[INFO] --< com.github.jawwy.keycloak:custom-user-profile-extension >--
 [INFO] Building custom-user-profile-extension 1.0.0.0-SNAPSHOT          [43/56]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ custom-user-profile-extension ---
-[INFO] com.github.thomasdarimont.keycloak:custom-user-profile-extension:jar:1.0.0.0-SNAPSHOT
+[INFO] com.github.jawwy.keycloak:custom-user-profile-extension:jar:1.0.0.0-SNAPSHOT
 [INFO] +- com.google.auto.service:auto-service:jar:1.0.1:provided
 [INFO] |  +- com.google.auto.service:auto-service-annotations:jar:1.0.1:provided
 [INFO] |  +- com.google.auto:auto-common:jar:1.2:provided
@@ -3361,12 +3305,12 @@
 [INFO]       +- org.apache.kerby:kerby-asn1:jar:2.0.2:provided
 [INFO]       \- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.13.3:provided
 [INFO] 
-[INFO] ---< com.github.thomasdarimont.keycloak:remote-keycloak-federation >----
+[INFO] ---< com.github.jawwy.keycloak:remote-keycloak-federation >----
 [INFO] Building remote-keycloak-federation 1.0.0.0-SNAPSHOT             [44/56]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ remote-keycloak-federation ---
-[INFO] com.github.thomasdarimont.keycloak:remote-keycloak-federation:jar:1.0.0.0-SNAPSHOT
+[INFO] com.github.jawwy.keycloak:remote-keycloak-federation:jar:1.0.0.0-SNAPSHOT
 [INFO] +- org.projectlombok:lombok:jar:1.18.22:provided
 [INFO] +- com.google.auto.service:auto-service:jar:1.0.1:provided
 [INFO] |  +- com.google.auto.service:auto-service-annotations:jar:1.0.1:provided
@@ -3454,12 +3398,12 @@
 [INFO]    +- commons-io:commons-io:jar:2.9.0:provided
 [INFO]    \- org.reactivestreams:reactive-streams:jar:1.0.3:provided
 [INFO] 
-[INFO] ---< com.github.thomasdarimont.keycloak:smallrye-metrics-extension >----
+[INFO] ---< com.github.jawwy.keycloak:smallrye-metrics-extension >----
 [INFO] Building smallrye-metrics-extension 1.0.0.0-SNAPSHOT             [45/56]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ smallrye-metrics-extension ---
-[INFO] com.github.thomasdarimont.keycloak:smallrye-metrics-extension:jar:1.0.0.0-SNAPSHOT
+[INFO] com.github.jawwy.keycloak:smallrye-metrics-extension:jar:1.0.0.0-SNAPSHOT
 [INFO] +- org.projectlombok:lombok:jar:1.18.22:provided
 [INFO] +- com.google.auto.service:auto-service:jar:1.0.1:provided
 [INFO] |  +- com.google.auto.service:auto-service-annotations:jar:1.0.1:provided
@@ -3531,7 +3475,7 @@
 [INFO]       +- org.apache.kerby:kerby-asn1:jar:2.0.2:provided
 [INFO]       \- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.13.3:provided
 [INFO] 
-[INFO] ---< com.github.thomasdarimont.keycloak:keycloak-playground-server >----
+[INFO] ---< com.github.jawwy.keycloak:keycloak-playground-server >----
 [INFO] Building keycloak-playground-server 1.0.0.0-SNAPSHOT             [46/56]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] ------------------------------------------------------------------------
@@ -3599,7 +3543,7 @@
 [INFO] Total time:  2.443 s
 [INFO] Finished at: 2022-10-06T18:03:12+02:00
 [INFO] ------------------------------------------------------------------------
-[ERROR] Failed to execute goal on project keycloak-playground-server: Could not resolve dependencies for project com.github.thomasdarimont.keycloak:keycloak-playground-server:jar:1.0.0.0-SNAPSHOT: org.jboss.resteasy:resteasy-jaxrs-all:jar:4.7.5.Final was not found in https://repo1.maven.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced -> [Help 1]
+[ERROR] Failed to execute goal on project keycloak-playground-server: Could not resolve dependencies for project com.github.jawwy.keycloak:keycloak-playground-server:jar:1.0.0.0-SNAPSHOT: org.jboss.resteasy:resteasy-jaxrs-all:jar:4.7.5.Final was not found in https://repo1.maven.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced -> [Help 1]
 [ERROR] 
 [ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
 [ERROR] Re-run Maven using the -X switch to enable full debug logging.

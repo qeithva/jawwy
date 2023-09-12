@@ -1,4 +1,4 @@
-package com.github.thomasdarimont.keycloak.provisioning;
+package com.github.jawwy.keycloak.provisioning;
 
 import lombok.extern.jbosslog.JBossLog;
 import org.keycloak.email.EmailException;

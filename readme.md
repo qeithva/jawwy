@@ -23,7 +23,7 @@ Note that the current Keycloak release also needs the new [keycloak-admin-ui](ht
 
 ## IDE Setup
 
-Create a new launch configuration and configure `com.github.thomasdarimont.keycloak.server.KeycloakPlaygroundServer` as the main class.
+Create a new launch configuration and configure `com.github.jawwy.keycloak.server.KeycloakPlaygroundServer` as the main class.
 Additionally configure `keycloak-playground-server` as the working directory.
 
 Note, that you can configure Keycloak to use an h2 or PostgreSQL database, depending on your needs.

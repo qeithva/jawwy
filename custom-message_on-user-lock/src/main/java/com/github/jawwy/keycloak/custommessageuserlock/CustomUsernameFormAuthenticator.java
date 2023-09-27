@@ -5,6 +5,10 @@ import org.keycloak.forms.login.freemarker.FreeMarkerLoginFormsProvider;
 import org.keycloak.models.KeycloakSession;
 import org.keycloak.theme.FreeMarkerUtil;
 import org.keycloak.theme.Theme;
+import org.keycloak.authentication.AuthenticationFlowContext;
+import org.keycloak.authentication.authenticators.browser.UsernamePasswordForm;
+import org.keycloak.credential.PasswordCredentialProvider;
+import org.keycloak.models.UserModel;
 
 @JBossLog
 public class CustomUsernameFormAuthenticator extends UsernamePasswordForm {

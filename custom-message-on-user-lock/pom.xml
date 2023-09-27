@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>update-password-event-listener-extension</artifactId>
+    <artifactId>custom-message-on-user-lock</artifactId>
 
     <dependencies>
         <dependency>
@@ -40,15 +40,15 @@
 
         <dependency>
             <groupId>org.keycloak</groupId>
-            <artifactId>keycloak-services</artifactId>
+            <artifactId>keycloak-core</artifactId>
             <version>${keycloak.version}</version>
-            <scope>provided</scope>
         </dependency>
 
         <dependency>
-            <groupId>jakarta.ws.rs</groupId>
-            <artifactId>jakarta.ws.rs-api</artifactId>
-            <version>3.1.0</version>
+            <groupId>org.keycloak</groupId>
+            <artifactId>keycloak-services</artifactId>
+            <version>${keycloak.version}</version>
+            <scope>provided</scope>
         </dependency>
 
     </dependencies>

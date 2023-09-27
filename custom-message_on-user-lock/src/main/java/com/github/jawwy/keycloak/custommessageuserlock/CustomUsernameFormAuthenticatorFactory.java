@@ -10,7 +10,7 @@ import org.keycloak.provider.ProviderConfigProperty;
 public class CustomUsernameFormAuthenticatorFactory implements AuthenticatorFactory, ConfigurableAuthenticatorFactory {
 
     private static final CustomUsernameFormAuthenticator SINGLETON = new CustomUsernameFormAuthenticator();
-    public static final String PROVIDER_ID = "custom-authenticator";
+    public static final String PROVIDER_ID = "custom-message_on-user-lock";
     
     @Override
     public String getId() {

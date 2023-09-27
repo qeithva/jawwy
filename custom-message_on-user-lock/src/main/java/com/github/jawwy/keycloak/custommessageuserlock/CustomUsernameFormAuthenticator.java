@@ -1,6 +1,10 @@
 package com.github.jawwy.keycloak.custommessageuserlock;
 
 import lombok.extern.jbosslog.JBossLog;
+import org.keycloak.forms.login.freemarker.FreeMarkerLoginFormsProvider;
+import org.keycloak.models.KeycloakSession;
+import org.keycloak.theme.FreeMarkerUtil;
+import org.keycloak.theme.Theme;
 
 @JBossLog
 public class CustomUsernameFormAuthenticator extends UsernamePasswordForm {

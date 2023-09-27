@@ -1,4 +1,5 @@
 import org.keycloak.Config;
+import com.google.auto.service.AutoService;
 import org.keycloak.authentication.Authenticator;
 import org.keycloak.authentication.AuthenticatorFactory;
 import org.keycloak.authentication.ConfigurableAuthenticatorFactory;

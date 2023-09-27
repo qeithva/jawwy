@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>custom-message_on-user-lock</artifactId>
+    <artifactId>custom-message-on-user-lock</artifactId>
 
     <dependencies>
         <dependency>

@@ -8,8 +8,6 @@ import org.keycloak.models.KeycloakSession;
 import org.keycloak.models.KeycloakSessionFactory;
 import org.keycloak.provider.ProviderConfigProperty;
 
-@AutoService(AuthenticatorFactory.class)
-@AutoService(ConfigurableAuthenticatorFactory.class)
 public class CustomUsernameFormAuthenticatorFactory implements AuthenticatorFactory, ConfigurableAuthenticatorFactory {
 
     private static final CustomUsernameFormAuthenticator SINGLETON = new CustomUsernameFormAuthenticator();

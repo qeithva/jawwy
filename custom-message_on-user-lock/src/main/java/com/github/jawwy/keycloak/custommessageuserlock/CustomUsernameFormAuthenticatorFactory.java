@@ -7,10 +7,9 @@ import org.keycloak.models.KeycloakSession;
 import org.keycloak.models.KeycloakSessionFactory;
 import org.keycloak.provider.ProviderConfigProperty;
 
-public class CustomUsernameFormAuthenticatorFactory implements AuthenticatorFactory, ConfigurableAuthenticatorFactory{
+public class CustomUsernameFormAuthenticatorFactory implements AuthenticatorFactory, ConfigurableAuthenticatorFactory {
 
     private static final CustomUsernameFormAuthenticator SINGLETON = new CustomUsernameFormAuthenticator();
-
     
     @Override
     public Authenticator create(KeycloakSession session) {

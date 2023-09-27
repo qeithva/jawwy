@@ -1,8 +1,9 @@
 import org.keycloak.Config;
 import org.keycloak.authentication.Authenticator;
 import org.keycloak.authentication.AuthenticatorFactory;
+import org.keycloak.authentication.ConfigurableAuthenticatorFactory;
 
-public class CustomUsernameFormAuthenticatorFactory implements AuthenticatorFactory, ConfigurableAuthenticatorFactory {
+public class CustomUsernameFormAuthenticatorFactory implements AuthenticatorFactory, . {
 
     private static final CustomPasswordAuthenticator SINGLETON = new CustomUsernameFormAuthenticator();
 

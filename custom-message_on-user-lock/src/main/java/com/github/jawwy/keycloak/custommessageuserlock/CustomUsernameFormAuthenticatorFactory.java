@@ -9,7 +9,7 @@ import org.keycloak.provider.ProviderConfigProperty;
 
 public class CustomUsernameFormAuthenticatorFactory implements AuthenticatorFactory, ConfigurableAuthenticatorFactory{
 
-    private static final CustomPasswordAuthenticator SINGLETON = new CustomUsernameFormAuthenticator();
+    private static final CustomUsernameFormAuthenticator SINGLETON = new CustomUsernameFormAuthenticator();
 
     
     @Override

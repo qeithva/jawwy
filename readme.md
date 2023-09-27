@@ -1,4 +1,4 @@
-# Keycloak Extension Playground
+# Keycloak Extension for Jawwy
 
 Simple project environment for developing custom [Keycloak](https://keycloak.org) extensions.  
 This example uses the in-process `KeycloakServer` from the `keycloak-testsuite-utils` project to ease development.

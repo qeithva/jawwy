@@ -1,3 +1,5 @@
+package com.github.jawwy.keycloak.custommessageuserlock;
+
 import org.keycloak.Config;
 import com.google.auto.service.AutoService;
 import org.keycloak.authentication.Authenticator;

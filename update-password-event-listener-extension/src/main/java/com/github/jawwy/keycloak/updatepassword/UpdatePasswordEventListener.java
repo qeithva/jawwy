@@ -77,7 +77,7 @@ public class UpdatePasswordEventListener implements EventListenerProvider {
         UriBuilder authUriBuilder = UriBuilder.fromUri(session.getContext().getUri().getBaseUri());
 
         Map<String, Object> mailBodyAttributes = new HashMap<>();
-        mailBodyAttributes.put("baseUri", authUriBuilder.replacePath("/auth").build());
+        //mailBodyAttributes.put("baseUri", authUriBuilder.replacePath("/auth").build());
         mailBodyAttributes.put("username", user.getUsername());
 
         String realmName = realm.getDisplayName() != null ? realm.getDisplayName() : realm.getName();

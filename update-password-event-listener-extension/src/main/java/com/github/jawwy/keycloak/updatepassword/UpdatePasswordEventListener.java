@@ -87,7 +87,7 @@ public class UpdatePasswordEventListener implements EventListenerProvider {
             EmailTemplateProvider emailProvider = session.getProvider(EmailTemplateProvider.class);
             emailProvider.setRealm(realm);
             emailProvider.setUser(user);
-            // Don't forget to add the welcome-email.ftl (html and text) template to your theme.
+            // Don't forget to add the event-update_password.ftl (html and text) template to your theme.
             emailProvider.send("updatePasswordEmailSubject", subjectParams, "event-update_password.ftl", mailBodyAttributes);
         } catch (EmailException eex) {
             log.errorf(eex, "Failed to send UpdatePassword confirmation email. realm=%s user=%s", realm.getId(), user.getUsername());

@@ -1,5 +1,6 @@
 <html>
 <body>
-${kcSanitize(msg("updatePasswordEmailBody",username))?no_esc}
+<text>Dear Jawwy user ${username},<br>
+Your password has been updated</text>
 </body>
 </html>

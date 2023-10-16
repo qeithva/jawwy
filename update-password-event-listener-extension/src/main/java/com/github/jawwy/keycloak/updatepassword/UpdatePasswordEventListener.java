@@ -71,7 +71,7 @@ public class UpdatePasswordEventListener implements EventListenerProvider {
             log.warnf("Could not send UpdatePassword confirmation email due to missing email. realm=%s user=%s", realm.getId(), user.getUsername());
             return;
         } else {
-            log.infof("Try to send UpdatePassword confirmation admin event email to Jawwy user");
+            log.infof("Try to send UpdatePassword confirmation admin event email to Jawwy user=%s",user.getUsername());
         }
 
         UriBuilder authUriBuilder = UriBuilder.fromUri(session.getContext().getUri().getBaseUri());
